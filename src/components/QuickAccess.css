@@ -1,0 +1,55 @@
+/* QuickAccess.css */
+.quick-access {
+    background: #1a1a1a;
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .quick-access-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .quick-access-description {
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .quick-access-description h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .quick-access-description p {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .social-links h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .social-links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+  }
+  
+  .social-links ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links ul li a:hover {
+    color: #6a11cb;
+  }

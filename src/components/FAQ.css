@@ -1,0 +1,96 @@
+/* FAQ.css */
+.wrapper {
+    margin: 3% 10%;
+    width: 80%;
+  }
+  
+  .wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .container {
+    background: #171717;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(193, 193, 193, 0.25);
+    margin: 20px 0;
+  }
+  
+  .question {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px 60px 15px 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .question::after {
+    content: "\002B";
+    font-size: 1.8rem;
+    position: absolute;
+    right: 15px;
+    transition: transform 0.2s;
+  }
+  
+  .question.active::after {
+    transform: rotate(45deg);
+  }
+  
+  .answercont {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+  }
+  
+  .answer {
+    padding: 0 15px 15px;
+    line-height: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .wrapper {
+      margin: 6% 5%;
+      width: 90%;
+    }
+    .wrapper h2 {
+      font-size: 1.8rem;
+    }
+    .question {
+      font-size: 0.9rem;
+      padding: 10px 50px 10px 10px;
+    }
+    .question::after {
+      font-size: 1.5rem;
+      right: 10px;
+    }
+    .answer {
+      padding: 0 10px 10px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wrapper {
+      margin: 6% 2%;
+      width: 96%;
+    }
+    .wrapper h2 {
+      font-size: 1.5rem;
+    }
+    .question {
+      font-size: 0.8rem;
+      padding: 8px 40px 8px 8px;
+    }
+    .question::after {
+      font-size: 1.2rem;
+      right: 8px;
+    }
+    .answer {
+      padding: 0 8px 8px;
+      font-size: 0.8rem;
+    }
+  }

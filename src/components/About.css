@@ -1,0 +1,28 @@
+/* About.css */
+.about {
+    padding: 80px 20px;
+    background: #1a1a1a url('../assets/images/bg-img1.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    max-width: 750px;
+    margin: 0 auto 100px;
+    text-align: center;
+    color: #ccc;
+  }
