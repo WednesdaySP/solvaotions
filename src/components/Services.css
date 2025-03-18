@@ -62,14 +62,17 @@
   }
   
   .card__bx::after {
-    inset: 60px -10px;
+    margin-left: 2px;
+    inset: 10% -1%; /* Use percentages instead of fixed values */
+    /* inset: 60px -10px; */
     border-left: 4px solid var(--clr);
     border-right: 4px solid var(--clr);
-    transform: skew(15deg);
+    transform: skew(10deg);
   }
   
   .card__bx:hover::after {
-    inset: 40px -10px;
+    inset: 8% -5%; 
+    /* inset: 40px -10px; */
     transform: skew(0);
   }
   
