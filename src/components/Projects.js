@@ -81,7 +81,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <h2>Our Projects</h2>
-      <div className="portfolio-min-h-screen portfolio-bg-black portfolio-p-8">
+      <div className="portfolio-min-h-screen portfolio-bg-black portfolio-p-7">
         <div
           id="portfolio-filter-buttons"
           className="portfolio-mb-8 portfolio-flex portfolio-flex-wrap portfolio-gap-4"

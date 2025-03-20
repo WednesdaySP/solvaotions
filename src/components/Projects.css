@@ -236,13 +236,13 @@
   
   @media (max-width: 680px) {
     .portfolio-text-xl {
-      font-size: 6.25rem;
+      font-size: 4.0rem;
     }
   }
   
   @media (max-width: 515px) {
     .portfolio-text-xl {
-      font-size: 4.25rem;
+      font-size: 2.0rem;
     }
     .portfolio-group {
       height: 280px;
