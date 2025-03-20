@@ -27,7 +27,7 @@ const useGsapAnimations = () => {
         opacity: 1,
         y: 0,
         duration: 1,
-        delay: i * 0.2,
+        delay: i * 0.1,
         scrollTrigger: {
           trigger: el.parentElement,
           start: 'top 90%',
