@@ -159,3 +159,51 @@
     color: var(--dark-color);
     background: var(--clr);
   }
+
+/* Responsive + auto hover effect for mobile screen*/
+@media (max-width: 730px) { 
+  .card__bx.auto-hover::before {
+    inset: -10px 40px;
+    transform: skewY(0);
+  }
+
+  .card__bx.auto-hover::after {
+    inset: 8% -5%;
+    transform: skew(0);
+  }
+
+  .card__bx.auto-hover .card__icon {
+    color: var(--dark-color);
+    background: var(--clr);
+    box-shadow: 0 0 0 4px var(--dark-color), 0 0 0 300px var(--clr);
+  }
+
+  .card__bx.auto-hover h3 {
+    color: var(--dark-color);
+  }
+
+  .card__bx.auto-hover p {
+    color: var(--dark-color);
+  }
+
+  /* Optional: Disable hover on mobile to avoid conflicts */
+  .card__bx:hover::before,
+  .card__bx:hover::after,
+  .card__bx:hover .card__icon,
+  .card__bx:hover h3,
+  .card__bx:hover p {
+    transition: none; /* Prevent hover interference */
+  }
+}
+
+/* Ensure smooth transitions remain for desktop */
+/* @media (min-width: 769px) {
+  .card__bx.auto-hover::before,
+  .card__bx.auto-hover::after,
+  .card__bx.auto-hover .card__icon,
+  .card__bx.auto-hover h3,
+  .card__bx.auto-hover p { */
+    /* Reset auto-hover styles on desktop */
+    /* all: initial;
+  }
+} */
